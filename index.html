@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="Header">Rock - Paper - Scissors</h1>
+    <div class="info">
+      <p>
+        <span id="playerScore">0</span>
+        <span> - </span>
+        <span id="computerScore">0</span>
+      </p>
+      <p id="infoText"></p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="images/rock.jpg" name="Rock" alt="Rock" />
+        <p>Rock</p>
+      </div>
+      <div class="card">
+        <img src="images/paper.png" name="Paper" alt="Paper" />
+        <p>Paper</p>
+      </div>
+      <div class="card">
+        <img src="images/scissors.png" name="Scissors" alt="Scissors" />
+        <p>Scissors</p>
+      </div>
+    </div>
+    <div id="history" style="text-align: center">
+      History
+      <ul id="history"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
